@@ -1,0 +1,14 @@
+# 상품 리뷰 감성 분석기 의존성
+# 설치:  pip install -r requirements.txt
+
+# Google Gemini 공식 SDK (function calling 지원)
+google-genai>=1.47.0
+
+# 웹 UI 겸 서버
+streamlit>=1.50.0
+
+# .env 파일에서 API 키를 읽기 위한 라이브러리
+python-dotenv>=1.0.0
+
+# 테스트 (개발용)
+pytest>=7.4.0
