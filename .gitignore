@@ -1,0 +1,39 @@
+# ===== 절대 커밋하면 안 되는 것 =====
+# API 키가 들어있는 실제 환경변수 파일
+.env
+.env.local
+.env.*.local
+*.key
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== 가상환경 =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== 테스트 / 캐시 =====
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
+
+# ===== 에디터 / OS =====
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
